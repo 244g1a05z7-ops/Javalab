@@ -27,3 +27,5 @@ System.out.println("bool:"+obj.bool);
 ```
 
 # output:
+
+![the default values of all the DataTypes]()
