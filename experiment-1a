@@ -1,6 +1,6 @@
-## Experiment 1a
+# Experiment 1a
 
-# AIM : display primitive data types
+## AIM : display primitive data types
 
 ``` java
 class exp_1a{
@@ -26,6 +26,6 @@ System.out.println("bool:"+obj.bool);
 }}
 ```
 
-# output:
+## output:
 
-![the default values of all the DataTypes]()
+![the default values of all the DataTypes](exp_1a output.png)
