@@ -28,7 +28,7 @@ System.out.println("bool:"+obj.bool);
 
 ## output:
 
-![the default values of all the DataTypes](exp_1aoutput.png)
+![the default values of all the DataTypes](1aoutput.png)
 
 
 # experiment 1b
