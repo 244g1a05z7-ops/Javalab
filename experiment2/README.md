@@ -26,3 +26,6 @@ class MyClass {
 ## output
 ![The output of 2a is](2aoutput.png)
 
+# experiment 2b
+## AIM: To implement method overloading 
+
