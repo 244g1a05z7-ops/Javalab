@@ -1,4 +1,4 @@
-<img width="305" height="143" alt="image" src="https://github.com/user-attachments/assets/191cf4cd-7ff2-4f71-9fa1-3b2e7c10bcd5" /># experiment 2A
+# experiment 2A
 ## AIM: Implementing class mechanism in java. create class. methods and invoke them inside the main method.
 
 ```java
