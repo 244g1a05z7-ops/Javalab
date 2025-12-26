@@ -1,4 +1,4 @@
-# experiment 2A
+<img width="305" height="143" alt="image" src="https://github.com/user-attachments/assets/191cf4cd-7ff2-4f71-9fa1-3b2e7c10bcd5" /># experiment 2A
 ## AIM: Implementing class mechanism in java. create class. methods and invoke them inside the main method.
 
 ```java
@@ -28,4 +28,32 @@ class MyClass {
 
 # experiment 2b
 ## AIM: To implement method overloading 
+```java
+class OverloadExample {
+
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static void main(String[] args) {
+
+        OverloadExample obj = new OverloadExample();
+
+        System.out.println("Result of adding two integers: " + obj.add(10, 20));
+        System.out.println("Result of adding two double values: " + obj.add(5.5, 4.5));
+        System.out.println("Result of adding three integers: " + obj.add(1, 2, 3));
+    }
+}
+```
+## output 
+![the ouput is](2boutput.png)
+
 
