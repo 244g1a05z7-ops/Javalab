@@ -49,7 +49,7 @@ class Student {
 }
 ```
 ## output:
-![the output is](3aoutput)
+![the output is](3aoutput.png)
 
 # Experiment 3b
 ## AIM:
@@ -117,7 +117,7 @@ class BinarySearchDemo {
 }
 ```
 ## output:
-![the output is](3boutput)
+![the output is](3boutput.png)
 
 # experiment 3c
 ## AIM:
@@ -155,4 +155,4 @@ class BubbleSort {
 }
 ```
 ## output:
-![the output is](3coutput)
+![the output is](3coutput.png)
