@@ -1,5 +1,5 @@
 # Experiment 3a
-## AIM:
+## AIM: Implement consturctor Overloading in java
 ```java
 class Student {
 
@@ -52,7 +52,7 @@ class Student {
 ![the output is](3aoutput.png)
 
 # Experiment 3b
-## AIM:
+## AIM: Binary Search mechanism in java
 ```java
 import java.util.Arrays;
 
@@ -120,7 +120,7 @@ class BinarySearchDemo {
 ![the output is](3boutput.png)
 
 # experiment 3c
-## AIM:
+## AIM: Bubble Sort mechanism in java
 ```java
 class BubbleSort {
 
