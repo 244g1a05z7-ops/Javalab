@@ -1,5 +1,5 @@
 # add1
-## AIM:
+## AIM: Insert sub-string into a main string
 ```java
 import java.util.Scanner;
 
@@ -42,7 +42,7 @@ public class InsertSubstring {
 ![output is:](add1output.png)
 
 # add3
-## AIM:
+## AIM: palindrome check
 ```java
 import java.util.Scanner;
 
@@ -85,7 +85,7 @@ public class PalindromeCheck {
 ![output is](add2output.png)
 
 # add4
-## AIM:
+## AIM: perfect number check
 ```java
 import java.util.Scanner;
 
