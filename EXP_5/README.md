@@ -1,5 +1,5 @@
 # Experiment 5a
-## AIM: 
+## AIM: To write a JAVA program to implement Interface.
 ```java
 
 // Sortable.java
