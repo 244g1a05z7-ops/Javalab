@@ -2,10 +2,12 @@
 ## AIM: 
 ```java
 
+// Sortable.java
 public interface Sortable {
     void sort(int[] arr);
 }
 
+// BubbleSort.java
 public class BubbleSort implements Sortable {
 
     public void sort(int[] arr) {
@@ -22,7 +24,7 @@ public class BubbleSort implements Sortable {
     }
 }
 
-
+// SelectionSort.java
 public class SelectionSort implements Sortable {
 
     public void sort(int[] arr) {
@@ -41,7 +43,7 @@ public class SelectionSort implements Sortable {
     }
 }
 
-
+// TestSort.java
 import java.util.Scanner;
 
 public class TestSort {
