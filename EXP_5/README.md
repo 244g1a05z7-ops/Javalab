@@ -99,7 +99,7 @@ public class TestSort {
 ![the output is](5aoutput.png)
 
 # Experiment 5b
-## AIM: 
+## AIM: To write a JAVA program that implements Runtime polymorphism
 ```java
 
 // Vehicle.java
@@ -163,7 +163,7 @@ public class TestVehicle {
 ![the output is](5boutput.png)
 
 # experiment 5c
-## AIM: 
+## AIM: To write a JAVA program using StringBuffer to delete, remove character.
 ```java
 
 // ArrayOperation.java
