@@ -1,5 +1,5 @@
 # Experiment 6a
-## AIM: 
+## AIM: To write a JAVA program that describes exception handling mechanism.
 ```java
 // ArrayInput.java
 import java.util.Scanner;
@@ -65,7 +65,7 @@ public class ExceptionHandlingDemo {
 ![the output is](6aoutput.png)
 
 # Experiment 6b
-## AIM: 
+## AIM: To write a JAVA program Illustrating Multiple catch clauses.
 ```java
 
 // ArithmeticOperation.java
@@ -156,7 +156,7 @@ public class MultipleCatchDemo {
 ![the output is](6boutput.png)
 
 # experiment 6c
-## AIM: 
+## AIM: To write a JAVA program for creation of Java Built-in Exceptions
 ```java
 
 // DivisionOperation.java
