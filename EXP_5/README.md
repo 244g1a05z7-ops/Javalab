@@ -102,6 +102,61 @@ public class TestSort {
 ## AIM: 
 ```java
 
+// Vehicle.java
+public class Vehicle {
+    public void run() {
+        System.out.println("Vehicle is running");
+    }
+}
+
+// Car.java
+public class Car extends Vehicle {
+
+    @Override
+    public void run() {
+        System.out.println("Car is running on four wheels");
+    }
+}
+
+// Bike.java
+public class Bike extends Vehicle {
+
+    @Override
+    public void run() {
+        System.out.println("Bike is running on two wheels");
+    }
+}
+
+// TestVehicle.java
+import java.util.Scanner;
+
+public class TestVehicle {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        Vehicle v;   // parent reference
+
+        System.out.println("Choose vehicle type:");
+        System.out.println("1. Car");
+        System.out.println("2. Bike");
+
+        int choice = sc.nextInt();
+
+        if (choice == 1) {
+            v = new Car();   // dynamic assignment
+        } else if (choice == 2) {
+            v = new Bike();  // dynamic assignment
+        } else {
+            v = new Vehicle(); // default
+        }
+
+        v.run();   // runtime polymorphism
+
+        sc.close();
+    }
+}
+
+
 
 ```
 ## output:
@@ -110,6 +165,53 @@ public class TestSort {
 # experiment 5c
 ## AIM: 
 ```java
+
+// ArrayOperation.java
+import java.util.Scanner;
+
+public class ArrayOperation {
+
+    public void readAndAccessArray() {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Dynamic array size
+        System.out.print("Enter size of the array: ");
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+
+        // Read array elements dynamically
+        System.out.println("Enter " + n + " elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        // Ask for index
+        System.out.print("Enter index to access: ");
+        int index = sc.nextInt();
+
+        // Exception handling
+        try {
+            System.out.println("Element at index " + index + " is: " + arr[index]);
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid index! Please enter index between 0 and " + (n - 1));
+        }
+    }
+}
+
+
+// TestException.java
+
+public class TestException {
+    public static void main(String[] args) {
+
+        ArrayOperation obj = new ArrayOperation();
+        obj.readAndAccessArray();
+
+    }
+}
 
 
 ```
